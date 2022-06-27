@@ -5,6 +5,7 @@
   height: 200px;
   overflow: hidden;
   margin: 40px auto;
+  padding: 0;
 
   /* transition */
   transition: height 1s;
