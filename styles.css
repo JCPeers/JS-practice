@@ -1,0 +1,26 @@
+#container {
+  text-align: center;
+  border: 2px solid black;
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  margin: 40px auto;
+
+  /* transition */
+  transition: height 1s;
+}
+
+#container.open {
+  height: 1000px;
+  transition: height 2s;
+}
+
+#button {
+  text-align: center;
+}
+
+#show-more {
+  border: 2px solid blue;
+  padding: 20px;
+  text-align: center;
+}
